@@ -1,6 +1,6 @@
 [package]
 name = "ip_revealer"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 authors = ["Robert Wallace"]
 description = "A tool to display both WAN and local IP addresses"
@@ -11,5 +11,6 @@ keywords = ["network", "ip", "address"]
 categories = ["command-line-utilities"]
 
 [dependencies]
+clap = "4.5.9"
 local-ip-address = "0.6.1"
 reqwest = { version = "0.12.5", features = ["blocking"] }
