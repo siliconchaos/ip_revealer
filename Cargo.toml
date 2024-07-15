@@ -1,0 +1,15 @@
+[package]
+name = "ip_revealer"
+version = "0.1.0"
+edition = "2021"
+authors = ["Robert Wallace"]
+description = "A tool to display both WAN and local IP addresses"
+license = "MIT"
+repository = "https://github.com/siliconchaos/ip_revealer"
+readme = "README.md"
+keywords = ["network", "ip", "address"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+local-ip-address = "0.6.1"
+reqwest = { version = "0.12.5", features = ["blocking"] }
